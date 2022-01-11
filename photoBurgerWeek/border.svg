@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404 50" width="404" height="50">
+	<title>Group 1</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: none;stroke: #3d2514;stroke-width: 2;stroke-dasharray: 8,10 } 
+	</style>
+	<g id="Group 1">
+		<g id="Design">
+			<path id="Rectangle" class="s0" d="m0 0.5h404v49.5h-404v-49.5z" />
+		</g>
+	</g>
+</svg>

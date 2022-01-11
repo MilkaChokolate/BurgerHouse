@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 23" width="29" height="23">
+	<title>Group 6</title>
+	<defs>
+		<image width="29" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAYAAAD3CERpAAABSElEQVRIie3UsUpcURSF4e1gYSEYG7sEY6KtduIjWIaAIHkBSxuTNvgIUwhiJwg+gKWIRUZIII0oJMTSJkVgEEUE4bOYfWUcEmdG46n8m1PsddbPvex7A2/wXRkaGA/sFhJWfAlcFpYKnBd2/gmsFZbWAy/wo5DwF0YjIgKvC4h/4m0lnM1zBFtPJNyWT4jZwBneR4JFNP+TrIkPbd3vcBZtgQ0M5/Al9h4p3Mer7BvGejWIjuAJ5jJYwwqu+pRd4RNq1evUWqBbOqVwjVUM5qVpHPUoPMZM3hvE5+y7w9+kFd8wlQVDqHcR1jGU+Ul8/VfwPilcYAkDWTaP047MKeZzPpD5e/9y3aQVOxhrW4plbOZZLd9Y5rrSqxR+a31OtWhDa+EWc94T/UgrDvERC3ke9lvwEOmjeZY+ubRR2NkITOCgkPAAEzc5otEsoIUyNQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Group 6">
+		<g id="Design">
+			<use id="Email" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

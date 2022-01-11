@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 35" width="31" height="35">
+	<title>Group 6</title>
+	<defs>
+		<image width="31" height="35" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAjCAYAAABsFtHvAAAB+UlEQVRYhcXXvU8UQRzG8b1ccmhCQSelMVhgQyWFdjZURBvOBEtaQ6ExF2squgtaGqO8xEZErZXEv0FiKQ1BW4IhiAcfC+eS5byd3b0XfZrL7fx+z/fZm7mZ3SQpIFRxC8v4hH3ntR+uL4e6ahHfPOgoHmNPOe2FvtFewXV8Kwnt1HfcLQOt4Vmf0E49Ry0PPIIPAwa39REXs8AVbA4J3NYbVLrBGwWaD/ES87iOy+FzPlw/LODR6ARP4DjScIYmxnKmbSzUnUW8jnE13fQiUvwTs9HF8neI2ZybedUuHEcrUlgvA04FqEc8WxhPsBgp2ugFnAqwEfFeTLAVKZjsEz4Z8X6b4GvG4E4/4FSAzxn+uwl+ZQyuDwi+luHfSiI/S3NA8GYW4L/f+bDnfCfDfzdvtV/rExxb7VsJ7kcKhv4/vyR73inzMHAenL/DhcLY3n6COyXBt0NfltbSxVfkn2orip1qK/JPtYnOxkeRhrZ+YBX3MB1CT4fvq2E8T41uqSt4XaC5H23q9iQTAtSwPSTwNi7kLZYRvBsw+H0uOBWgKntbLKt1Zd9g/FkDT/oEP5U1xwVDLPUIXuoZ2hHgQUnww4GAUwEWcJoDPcXCQMGpAHOyt80TzA0FnAowg6MO8BFmhgpOBbiJgwA+wI1/Ak4FmMIXTPXq8RsnaRw5gSYhNwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Group 6">
+		<g id="Design">
+			<use id="Location Icon" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
