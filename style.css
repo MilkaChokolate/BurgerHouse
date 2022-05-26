@@ -1,58 +1,63 @@
 body{
      margin: 0;
-     font-family: 'Alfa Slab One', cursive;
      font-family: 'Bebas Neue', cursive;
      background: white;
      color: rgba(61,37,20,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .group1{
-     background: url("photoBurgerWeek/background.png");
-     padding: 40px;
-     width: 100%;
-     height: 800px;
-     color: rgba(61,37,20,255);
+    background: url("photoBurgerWeek/background.png");
+    width: 100%;
+    height: 800px;
+    color: rgba(61,37,20,255);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-#orange{
-    background: transparent;
-    width: 60%;
+.group1-wrapper {
+    width: 70%;
 }
 .head{
+     width: 100%;
      display: flex;
      justify-content: space-between;
 }
 .phoneNumber{
      display: flex;
-     width: 263px;
-     font-size: 17px;
+}
+.phoneNumber a, .phoneNumber p {
+    color: #3d2514;
+    margin: auto;
 }
 .bodyOfGroup{
      display: flex;
      justify-content: space-between;
      margin-top: 60px;
 }
+
+.photo-burger img{
+    width: 100%;
+    height: 100%;
+}
 #promo{
      border: dashed rgba(61,37,20,255) 2px;
-     width: 350px;
-     height: 50px;
-     font-size: 20px;
      text-align: center;
 }
 #promo p {
-     margin-top: 15px;
+     margin: 10px;
 }
 #title{
+    font-size:3.5em;
      text-shadow: 5px 5px white;
-     font-size: 300%;
      letter-spacing: 5px;
 }
 #title h1{
      margin: 0;
-     font-size: 114px;
 }
 #title h3{
-     font-size: 56px;
      margin: 0;
 }
 .photo{
@@ -60,49 +65,41 @@ body{
      height: 600px;
      width: 600px;
 }
-.photo img, #price {
-     position: absolute;
-     color: white;
-}
 
-#price h1{
-     font-size: 70px;
-     margin: 0;
-}
-#price h3{
-     font-size: 33px;
-     margin: 0;
-}
-#price p{
-     font-size: 30px;
-     margin: 0 0 10px 0;
-}
 .group2{
      background: white;
      display: flex;
      justify-content: center;
-     height: 600px;
+     width: 80%;
+     margin: 10px 0 10px 0;
 }
-.oneRightPhoto{
+.rightsPhotos {
+    flex-grow: 1;
+}
+.image-1, .image-2, .image-3 {
+    border-radius: 8px;
+    margin: 12px;
+}
+.image-3, .image-2{
      background: url("photoBurgerWeek/Image.svg");
      background-size: cover;
-     height: 192px;
-     width: 596px;
-     margin-bottom: 40px;
-     margin-left: 20px;
+     flex-shrink: 1;
+     flex-grow: 1;
 }
-.leftImage{
-background: url("photoBurgerWeek/ImageBig.svg");
-     background-size: cover;
-}
-.leftImage, .rightImage{
-     margin-top: 70px;
+.image-1{
+    background: url("photoBurgerWeek/ImageBig.svg");
+    background-size: cover;
+    display: flex;
+    flex-shrink: 2;
+    flex-grow: 1;
 }
 .group2 p{
      font-size: 25px;
+     padding: 0;
 }
 .group2 h1{
      font-size: 42px;
+     padding: 5px 0 5px 0;
 }
 .txt{
      color: white;
@@ -114,8 +111,7 @@ background: url("photoBurgerWeek/ImageBig.svg");
 .group3{
     background: white;
     margin-bottom: 30px;
-    font-family: 'Alfa Slab One', cursive;
-     font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 .group3 h1 {
     color:#333;
@@ -266,12 +262,11 @@ button{
 .group5{
     background: white;
     color: white;
-}
-.footer{
     background: url("photoBurgerWeek/background-footer.jpg");
-    width: 1326px;
-    height: 525px;
     margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 .leftText, .rightText{
     display: flex;
@@ -282,11 +277,10 @@ button{
 }
 .leftText p{
     margin-top: 12%;
-    font-size: 15px;
 }
 .rightText{
-    margin-top: 10%;
-    margin-left: 10%;
+    display: flex;
+    align-items: center;
 }
 .infoWithLogo{
     display: flex;
@@ -294,7 +288,6 @@ button{
 .bottom-footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 8%;
 }
 .top-footer{
     display: flex;
@@ -307,18 +300,26 @@ button{
 .infoWithLogo{
     display: block;
 }
-@media only screen and (max-width: 768px) {
+.messengers img{
+    cursor: pointer;
+}
+
+@media (max-width: 1245px) {
+    .group2 {
+        flex-direction:column;
+        width: 50%;
+    }
+    .image-1{
+        flex-grow: 1;
+    }
+    .image-1, .image-2, .image-3 {
+
+    }
     .footer, .top-footer,.bottom-footer{
         display: block;
     }
     .leftText, .rightText{
     width: 90%;
-    }
-    .photo, .group3, .leftImage{
-        display: none;
-    }
-    .head{
-        display: block;
     }
     #orange, .footer{
         width: auto;
@@ -330,31 +331,34 @@ button{
     .group1{
         padding: 10px 0 0 0;
     }
-    .leftText p {
-    margin-top: 0%;
-        width: 350px;
-    }
     .leftText img{
         width: 263px;
         height: 58px;
     }
-    .bottom-footer{
-        margin-top: -10%;
-    }
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-   .group3 .coevbusinesen ul li img {
-       width: 300px;
-   }
-    .leftImage{
+@media (max-width: 768px) {
+    .head{
+    flex-direction: column;
+    align-items: center;
+    }
+    .bodyOfGroup {
+        justify-content: center;
+    }
+    .photo-burger{
         display: none;
     }
-    .scaleX {
-        transform: scaleX(-1);
+    .group1-wrapper {
+        width: 100%;
     }
-    .light, .shadow{
+    .group1{
+        height: fit-content;
+        padding: 30px 0 30px 0;
+    }
+    .group3 {
+        display: none;
+    }
+    .phoneNumber img {
         display: none;
     }
 }
