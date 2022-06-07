@@ -130,7 +130,6 @@ body{
     margin-top: 20px;
     position: relative;
 }
-
 .coevbusinesen {
       width: 100%;
       height: 100%;
@@ -308,6 +307,9 @@ button{
     .group2 {
         flex-direction:column;
         width: 50%;
+    }
+    .group3 {
+        display: none;
     }
     .image-1{
         flex-grow: 1;
