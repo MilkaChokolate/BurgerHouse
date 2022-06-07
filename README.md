@@ -10,3 +10,8 @@
   src="/markdownImg/github.io.jpg"
   alt="BurgerHouse"
   caption="BurgerHouse">
+
+## Project setup
+```
+git clone https://github.com/MilkaChokolate/MilkaChokolate.github.io.git
+```
